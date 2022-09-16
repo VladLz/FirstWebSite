@@ -12,6 +12,7 @@
     justify-content: space-around;
     padding-top: 20px;
     font-family: 'Roboto', sans-serif;
+    gap: 190px;
 }
 
 .logo {
@@ -92,6 +93,7 @@ img {
     font-size: 36px;
     font-weight: 900;
     padding-bottom: 50px;
+    color: #1F2937;
 }
 
 .section2-2 {
@@ -112,4 +114,97 @@ img {
     flex-direction: column;
     row-gap: 20px;
     text-align: center;
+}
+
+/*-----Third-Section-----*/
+.section3 {
+    background-color: #E5E7EB;
+    display: flex;
+    height: 420px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 310px;
+    padding-right: 310px;
+    flex-direction: column;
+}
+
+.section3-1 {
+    font-size: 36px;
+    font-family: light italic;
+    font-weight: lighter;
+    color: #1F2937;
+    display: flex;
+    flex: 0 1 auto;
+}
+
+.section3-2 {
+    display: flex;
+    margin-left: 550px;
+    font-size: 22px;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+}
+
+/*-----Fourth-Section-----*/
+.section4 {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4-a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section4-1 {
+    display: flex;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section4-2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.section4-3 {
+    color: #cccecf;
+    padding-top: 5px;
+}
+
+.section4 button {
+    font-family: Roboto, sans-serif;
+    border: 2px white solid;
+    border-radius: 8px;
+    padding: 6px 30px;
+    margin-top: 15px;
+    color: white;
+    font-weight: 800;
+    font-size: large;
+    background-color: #3882F6;
+}
+
+/*Footer*/
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+}
+
+.footer1 {
+    font-size: 18px;
 }
